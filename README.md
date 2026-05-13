@@ -1,6 +1,6 @@
 # LLMsClichés: Framework for Analyzing Clichés in Large Language Models
 
-LLMsClichés is a toolkit for poking and prodding large language models to see what clichés and stereotypes they fall back on. It lets you set up experiments where the model has to pick from a list, rank things in head-to-head matchups, or show how close different ideas are in its "mind" using embeddings. T this project helps you dig into what LLMs really think is typical or obvious.
+LLMsClichés is a toolkit for poking and prodding large language models to see what clichés and stereotypes they fall back on. It lets you set up experiments where the model has to pick from a list, rank things in head-to-head matchups, or show how close different ideas are in its "mind" using embeddings. This project helps you dig into what LLMs really think is typical or obvious.
 Great for anyone curious about the patterns and quirks hiding in AI-generated text.
 
 See [output](output) for some result and [examples](examples).
@@ -11,7 +11,7 @@ See [output](output) for some result and [examples](examples).
 Pairwise comparisons judged by the LLM to rank items via an Elo rating system. The LLM acts as a judge in simulated "matches," updating scores based on wins/losses/draws to create ordered lists by perceived attributes.
 
 ### Embedding Matrix of Distances
-Generates semantic embeddings for sets of items and computes distance matrices to measure similarities. This reveals how closely the LLM associates different concepts in its embedding space, highlighting potential clichéd or biased groupings.
+Generates semantic embeddings for sets of items and computes distance matrices to measure similarities. This reveals how closely the LLM associates different concepts in its embedding space, highlighting potential clichés or biased groupings.
 
 ## Constraint Techniques
 The framework employs multiple strategies to constrain the model's responses to a predefined set of choices.
